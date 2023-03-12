@@ -13,3 +13,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: #badeff;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  width: fit-content;
+  outline: none;
+  border: none;
+  background-color: #ffe100;
+  transition: background-color ease-in-out 250ms, color ease-in-out 250ms;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+button:hover,
+button:active {
+  background-color: #001aff;
+  color: #fff;
+}
