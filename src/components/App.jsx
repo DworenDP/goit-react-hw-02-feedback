@@ -10,12 +10,12 @@ export class App extends Component {
     bad: 0,
   };
 
-  handleFeedback = evt => {
-    if (evt === 'Good') {
+  handleFeedback = e => {
+    if (e === 'Good') {
       this.setState({ good: this.state.good + 1 });
-    } else if (evt === 'Neutral') {
+    } else if (e === 'Neutral') {
       this.setState({ neutral: this.state.neutral + 1 });
-    } else if (evt === 'Bad') {
+    } else if (e === 'Bad') {
       this.setState({ bad: this.state.bad + 1 });
     }
   };
